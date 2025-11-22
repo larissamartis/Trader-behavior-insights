@@ -1,4 +1,4 @@
-📊 Trader Behavior Insights 
+#📊 Trader Behavior Insights 
 
 This repository contains an exploratory analysis of trader behavior using:
 

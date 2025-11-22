@@ -1,57 +1,68 @@
-# Trader-behavior-insights
-EDA and analysis on trader behavior using sentiment and PnL data
 📊 Trader Behavior Insights – EDA Assignment
 
-The goal is to explore how market sentiment (Fear–Greed Index) correlates with:
+This repository contains an exploratory analysis of trader behavior using:
 
-Closed PnL
+Daily Fear–Greed Index sentiment
 
-Entry decisions
+Trading logs with Closed PnL, trade direction, position size, and more
 
-Position outcomes
+The goal is to understand how market sentiment influences trader actions and outcomes.
 
-Trade behavior patterns
-
-🔍 Contents
+📁 Repository Contents
 
 Trader_Behavior_EDA.ipynb – Full Google Colab notebook
 
-Complete EDA
+Complete data cleaning steps
 
-Sentiment bucketing
+Sentiment bucketing (Fear / Neutral / Greed)
 
 Visualizations
 
-Humanized insights
-
-Final summary
+insights
 
 📈 What This Analysis Covers
+✔ Data Preparation
 
-Data cleaning of sentiment & trade logs
+Cleaned sentiment and trade datasets
 
-Merging both datasets on date
+Ensured consistent date formats
 
-Visualizing relationships
+Removed duplicates and handled missing values
 
-Exploring high vs low sentiment behaviors
+✔ Data Merging
 
-Extracting meaningful signals like:
+Joined sentiment data with trade logs
 
-Greed-heavy days → higher risk taking
+Created sentiment buckets (Low, Medium, High)
 
-Extreme fear → unstable PnL
+✔ Exploratory Analysis
 
-Sentiment spikes → unusual trading moves
+Sentiment vs PnL
 
-🧠 Key Insights (Short Summary)
+Sentiment vs trade size
 
-Extreme sentiment (below 20 or above 80) shows higher volatility.
+Distribution plots
 
-Neutral sentiment (40–60) often results in stable PnL days.
+Trend line visualizations
 
-Greed periods correlate with traders taking larger risks and aggressive positions.
+✔ Behavior Patterns Observed
 
-Fear periods show hesitation, small trades, and more negative PnL clusters.
+Greed-heavy days → higher risk-taking
 
-Full details are available inside the notebook.
+High fear → lower confidence, inconsistent PnL
+
+Stable sentiment → more consistent trading
+
+Sudden sentiment spikes → unusual trading patterns
+
+🧠 Key Insights
+
+Extreme sentiment (<20 or >80) often leads to volatile PnL outcomes.
+
+Neutral sentiment (40–60) shows more stable trade performance.
+
+Greed days correlate with larger trade sizes and aggressive positions.
+
+Fear days show small trades and more losing streaks.
+
+Full details and visual explanations are available in the notebook.

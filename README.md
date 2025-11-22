@@ -21,6 +21,7 @@ Visualizations
 insights
 
 📈 What This Analysis Covers
+
 ✔ Data Preparation
 
 Cleaned sentiment and trade datasets

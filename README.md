@@ -2,9 +2,7 @@
 EDA and analysis on trader behavior using sentiment and PnL data
 📊 Trader Behavior Insights – EDA Assignment
 
-This repository contains the complete analysis for the Trader Behavior Insight Assignment for the Junior Data Scientist role at Bajarangs / PrimeTrade.AI.
-
-The goal of this assignment is to explore how market sentiment (Fear–Greed Index) correlates with:
+The goal is to explore how market sentiment (Fear–Greed Index) correlates with:
 
 Closed PnL
 

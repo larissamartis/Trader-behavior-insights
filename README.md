@@ -1,4 +1,4 @@
-📊 #Trader Behavior Insights – EDA Assignment
+##📊 Trader Behavior Insights – EDA Assignment
 
 This repository contains an exploratory analysis of trader behavior using:
 
